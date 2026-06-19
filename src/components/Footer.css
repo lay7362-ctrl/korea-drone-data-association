@@ -1,0 +1,27 @@
+.site-footer {
+  margin-top: 48px;
+  background: var(--navy-dark);
+  color: #9fb3cf;
+}
+
+.site-footer__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 28px 24px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.site-footer__name {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.site-footer__copy {
+  margin-top: 8px;
+  color: #6f86a6;
+  font-size: 12px;
+}
