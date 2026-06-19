@@ -13,12 +13,13 @@
 }
 
 .site-title {
-  font-size: clamp(28px, 5vw, 44px);
+  font-size: clamp(20px, 6vw, 44px);
   font-weight: 800;
   letter-spacing: -0.5px;
   color: var(--white);
   align-self: center;
   text-align: center;
+  white-space: nowrap;
 }
 
 .site-nav ul {
