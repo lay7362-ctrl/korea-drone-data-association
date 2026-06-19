@@ -24,6 +24,6 @@ npm run build
 
 ## 배포
 
-`main` 브랜치에 push하면 GitHub Actions(`.github/workflows/deploy.yml`)가
-Cloudflare Pages로 자동 배포합니다. 저장소 Secrets에
-`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`가 등록되어 있어야 합니다.
+이 저장소는 Cloudflare Pages와 GitHub 네이티브 Git 연동이 설정되어 있어,
+`master` 브랜치에 push하면 별도 설정 없이 Cloudflare Pages가 자동으로
+빌드 및 배포합니다. (https://korea-drone-data-association.pages.dev)
