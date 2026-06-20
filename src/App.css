@@ -65,6 +65,12 @@
   gap: 16px;
 }
 
+@media (min-width: 641px) {
+  .menu-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .menu-card {
   display: block;
   background: var(--white);
